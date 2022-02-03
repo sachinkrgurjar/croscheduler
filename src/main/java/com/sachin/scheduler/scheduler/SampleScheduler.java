@@ -40,7 +40,7 @@ public class SampleScheduler {
         try {
             doPrint();
             sampleTask.initTask();
-          //  log.info("processing file:" + sampleProperties.getProcessFile());
+           log.info("processing file:" + sampleProperties.getProcessFile());
 
         } catch (IOException e) {//log.error("Error during scheduling:"+ e.getMessage());}
         }
